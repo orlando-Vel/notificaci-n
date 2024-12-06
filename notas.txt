@@ -1,0 +1,12 @@
+La velocidad de la animacion dependiendo de que tantos keyframe sean puede hacer demasiado
+lenta o demasiado rapida la animacion, si se tienen muchos keyframe y la animacion dura mucho
+quizas la animacion sea demasiado lenta, en este caso la campana de notificacion quiero tenga
+un movimiento un poco rapido, al agregar mas keyframe y mas tiempo de animacion el movimiento
+fue muy lento, reduje un poco los key frame y el tiempo de la animacion para que sea un poco
+mas rapida la animacion
+
+El ultimo numero en la propiedad animation es la cantidad de veces que se ejecuta la animacion
+En la misma propiedad de animacion el ease-in-out modifica la velocidad a la que se ejecuta la animacion
+en diferentes momento "ease" hace que sea suave al principio "in" hace que tenga una velocidad media
+y "out" hace que vaya mas rapido, en este caso no veo realmente demasiadas diferencias usando los otros estilos
+En el css tambien se puede agregar transfom-origin para modificar como se ejecuta la rotacion

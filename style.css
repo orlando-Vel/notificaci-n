@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.notification {
+  width: 48px;
+  margin: 80px auto;
+
+  animation: ring 1s 0.5s ease-in-out 3;
+}
+
+.notification .count {
+  --size: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgb(0, 183, 255);
+  color: rgb(52, 52, 50);
+  border: solid 2px white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size);
+  height: var(--size);
+  max-width: var(--size);
+  max-height: var(--size);
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 50%;
+  top: 20px;
+  left: 18px;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  25% {
+    transform: rotate(-18deg);
+  }
+  40% {
+    transform: rotate(24deg);
+  }
+  55% {
+    transform: rotate(-22deg);
+  }
+  70% {
+    transform: rotate(12deg);
+  }
+  85% {
+    transform: rotate(-6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
